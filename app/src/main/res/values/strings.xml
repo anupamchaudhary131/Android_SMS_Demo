@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Android_SMS_Demo</string>
+    <string name="learnvern">LearnVern</string>
+    <string name="smsHeader">SMS Screen</string>
+    <string name="hint">Enter Mobile Number</string>
+    <string name="messageEnter">Enter Message.....</string>
+    <string name="smsButton">Send Your Message</string>
+    <string name="screenSubHeader">Click On Below SMS Button To Send Your Message From System Application</string>
+    <string name="startMessaging">Start Messaging</string>
+</resources>

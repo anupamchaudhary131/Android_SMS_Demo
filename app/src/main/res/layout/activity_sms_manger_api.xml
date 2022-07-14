@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/learnvern"
+        android:textSize="@dimen/textsize"
+        android:textColor="@color/saffron"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/commonMargin"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/smsHeader"
+        android:textColor="@color/black"
+        android:textSize="@dimen/commonMargin"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/commonMargin" />
+
+    <EditText
+        android:id="@+id/phoneNumberEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="@dimen/commonMargin"
+        android:layout_margin="@dimen/commonMargin" />
+
+    <EditText
+        android:id="@+id/messageEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/messageEnter"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="@dimen/commonMargin"
+        android:layout_margin="@dimen/commonMargin" />
+
+    <Button
+        android:id="@+id/smsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/smsButton"
+        android:textAllCaps="false"
+        android:textSize="@dimen/commonMargin"
+        android:textStyle="bold"
+        android:backgroundTint="@color/saffron"
+        android:layout_margin="@dimen/textsize" />
+
+</LinearLayout>
